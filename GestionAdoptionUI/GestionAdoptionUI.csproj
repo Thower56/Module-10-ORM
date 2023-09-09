@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestionAdoptionBL\GestionAdoptionBL.csproj" />
+    <ProjectReference Include="..\GestionAdoptionDAL_SQLServerEF\GestionAdoptionDAL_SQLServerEF.csproj" />
+    <ProjectReference Include="..\GestionAdoptionEntite\GestionAdoptionEntite.csproj" />
+  </ItemGroup>
+
+</Project>
